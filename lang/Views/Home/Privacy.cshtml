@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@inject lang.Resource.LocService SL
+@inject IViewLocalizer localizer
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+<h1>@SL.Loc("qumc") </h1>
+<h1>@SL.Loc("id") </h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
